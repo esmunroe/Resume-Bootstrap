@@ -1,0 +1,11 @@
+header {
+    text-align: center;
+}
+
+header > h2 {
+    font: bold 14pt Times, serif
+}
+
+footer {
+    text-align: center;
+}
