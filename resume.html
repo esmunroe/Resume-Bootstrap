@@ -10,26 +10,59 @@
     </head>
 
     <body>
-        <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Résumé</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#summary">Summary</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#workHistory">Work History</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#certification">Certifications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Me</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+
+        <div id="header">
             <h1>Elijah Munroe</h1>
             <h2>Charlotte, North Carolina</h2>
             <h2>elimunroe15@hotmail.com</h2>
         </div>
+        
         <hr>
-        <div>
+        
+        <div id="summary">
             <h3>Summary:</h3>
             <p>
                 Entry-level developer with a degree in Computer Science from the University of North Carolina at Charlotte.
                 Passion for developing and repairing user applications with a love for discerning issues and debugging.
             </p>
+        </div>
         
+        <div id="education">
             <h3>Education:</h3>
             <p><b>Bachelor of Science in Computer Science</b><br>
             Concentration: Software, Systems, & Networks<br>
             University of North Carolina at Charlotte | Charlotte, NC<br>
             GPA: 3.458<br>
             August 2017 - May 2021</p>
-            
+        </div>
+        
+        <div id="workHistory">
             <h3>Work History:</h3>
             <p>
                 <b>Office Assistant/Customer Service Clerk</b><br>
@@ -44,11 +77,13 @@
                         Conduct audits and counts at least three times daily to monitor cash flow.
                     </li>
                     <li>
-                         Review and answer customer questions to achieve "world-class" customer service.
+                            Review and answer customer questions to achieve "world-class" customer service.
                     </li>
                 </ul>
             </p>
-            
+        </div>
+        
+        <div id="certification">
             <h3>Certifications:</h3>
             <p><b>Mircrosoft Office Specialist Master</b><br>
             Word, Word Expert, Excel, Access<br>
@@ -66,8 +101,10 @@
             <p><b>IC3 - Internet Core Competency Global</b><br>
             May 2014</p>
         </div>
+        
         <hr>
-        <div>
+
+        <div id="contact">
             <h2>Contact Me</h2>
             <form>
                 <label for="name">Full Name:</label><br>
